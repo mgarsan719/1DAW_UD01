@@ -9,9 +9,7 @@ public class pruebaMain2
 	{
 		// TODO Auto-generated method stub
 		
-		Scanner sc; 
-		
-		sc =new Scanner(System.in);
+		Scanner sc =new Scanner(System.in);
 		
 		System.out.print("Introduzca el numero 1: ");
 		int num1=sc.nextInt();
@@ -25,7 +23,6 @@ public class pruebaMain2
 		System.out.printf("La suma de %d más %d es igual a %d", num1, num2, suma);
 		
 		sc.close();
-
 	}
 
 }
