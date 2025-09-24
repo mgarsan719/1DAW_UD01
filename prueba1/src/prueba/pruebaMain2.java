@@ -2,7 +2,6 @@ package prueba;
 
 import java.util.Scanner;
 
-
 public class pruebaMain2
 {
 
@@ -18,12 +17,13 @@ public class pruebaMain2
 		System.out.print("Introduzca el numero 2: ");
 		int num2=sc.nextInt();
 		
+		
 		int suma=num1+num2;
 		
-		System.out.println("La suma de " + num1 + " y " + num2 + " es igual a " + suma);
+		System.out.printf("La suma de %d más %d es igual a %d", num1, num2, suma);
 		
 		sc.close();
-		
+
 	}
 
 }
