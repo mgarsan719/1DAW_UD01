@@ -9,7 +9,9 @@ public class pruebaMain2
 	{
 		// TODO Auto-generated method stub
 		
-		Scanner sc =new Scanner(System.in);
+		Scanner sc; 
+		
+		sc =new Scanner(System.in);
 		
 		System.out.print("Introduzca el numero 1: ");
 		int num1=sc.nextInt();
