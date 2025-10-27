@@ -13,7 +13,6 @@ public class Persona
 	{
 		this.nombre = Nombre;
 		this.edad = Edad;
-		this.estatura = Estatura;
 	}
 
 	// GETTERS
@@ -53,8 +52,8 @@ public class Persona
 	{
 		System.out.println("HOLA!!!!!");
 	}
-	
-	void presentar() 
+
+	void presentar()
 	{
 		System.out.printf("Hola, soy %s, tengo %d años y mido %.2f m\n", this.nombre, this.edad, this.estatura);
 	}
