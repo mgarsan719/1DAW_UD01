@@ -1,4 +1,4 @@
-package actividades;
+package actividades.Pestructurada;
 
 import java.util.Scanner;
 
